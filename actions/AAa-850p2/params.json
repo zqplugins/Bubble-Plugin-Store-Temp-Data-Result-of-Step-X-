@@ -1,0 +1,22 @@
+{
+    "category": "plugins",
+    "display": "Store Date Range",
+    "fields": {
+        "AAb": {
+            "caption": "Date Range to store",
+            "editor": "DynamicValue",
+            "name": "to_store",
+            "rank": 0,
+            "value": "date_range"
+        }
+    },
+    "return_value": {
+        "AAc": {
+            "caption": "Stored Date Range",
+            "name": "date_range",
+            "rank": 0,
+            "value": "date_range"
+        }
+    },
+    "type": "server_side"
+}

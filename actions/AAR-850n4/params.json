@@ -1,0 +1,22 @@
+{
+    "category": "plugins",
+    "display": "Store File",
+    "fields": {
+        "AAS": {
+            "caption": "File to store",
+            "editor": "DynamicValue",
+            "name": "to_store",
+            "rank": 0,
+            "value": "file"
+        }
+    },
+    "return_value": {
+        "AAT": {
+            "caption": "Stored File",
+            "name": "file",
+            "rank": 0,
+            "value": "file"
+        }
+    },
+    "type": "server_side"
+}

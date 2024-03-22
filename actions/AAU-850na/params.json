@@ -1,0 +1,22 @@
+{
+    "category": "plugins",
+    "display": "Store Geographic Address",
+    "fields": {
+        "AAV": {
+            "caption": "Geographic Address to store",
+            "editor": "DynamicValue",
+            "name": "to_store",
+            "rank": 0,
+            "value": "geographic_address"
+        }
+    },
+    "return_value": {
+        "AAW": {
+            "caption": "Stored Geographic Address",
+            "name": "geographic_address",
+            "rank": 0,
+            "value": "geographic_address"
+        }
+    },
+    "type": "server_side"
+}

@@ -1,0 +1,22 @@
+{
+    "category": "plugins",
+    "display": "Store Range",
+    "fields": {
+        "AAJ": {
+            "caption": "Range to store",
+            "editor": "DynamicValue",
+            "name": "to_store",
+            "rank": 0,
+            "value": "number_range"
+        }
+    },
+    "return_value": {
+        "AAK": {
+            "caption": "Stored Range",
+            "name": "range",
+            "rank": 0,
+            "value": "number_range"
+        }
+    },
+    "type": "server_side"
+}

@@ -1,0 +1,22 @@
+{
+    "category": "plugins",
+    "display": "Store Date",
+    "fields": {
+        "AAY": {
+            "caption": "Date to store",
+            "editor": "DynamicValue",
+            "name": "to_store",
+            "rank": 0,
+            "value": "date"
+        }
+    },
+    "return_value": {
+        "AAZ": {
+            "caption": "Stored Date",
+            "name": "date",
+            "rank": 0,
+            "value": "date"
+        }
+    },
+    "type": "server_side"
+}

@@ -1,0 +1,22 @@
+{
+    "category": "plugins",
+    "display": "Store Text",
+    "fields": {
+        "AAG": {
+            "caption": "Text to store",
+            "editor": "DynamicValue",
+            "name": "to_store",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAH": {
+            "caption": "Stored Text",
+            "name": "text",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side"
+}

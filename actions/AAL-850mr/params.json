@@ -1,0 +1,22 @@
+{
+    "category": "plugins",
+    "display": "Store Boolean",
+    "fields": {
+        "AAM": {
+            "caption": "Boolean to store",
+            "editor": "DynamicValue",
+            "name": "to_store",
+            "rank": 0,
+            "value": "boolean"
+        }
+    },
+    "return_value": {
+        "AAN": {
+            "caption": "Stored Boolean",
+            "name": "boolean",
+            "rank": 0,
+            "value": "boolean"
+        }
+    },
+    "type": "server_side"
+}

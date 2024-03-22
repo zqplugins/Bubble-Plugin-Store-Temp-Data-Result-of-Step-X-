@@ -1,0 +1,30 @@
+{
+    "category": "plugins",
+    "display": "Store List of Custom Data Type",
+    "fields": {
+        "AAn": {
+            "caption": "Data Type to store",
+            "editor": "custom_type",
+            "name": "data_type",
+            "rank": 0
+        },
+        "AAo": {
+            "caption": "Data",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "data",
+            "rank": 1,
+            "value": "_any_thing"
+        }
+    },
+    "return_value": {
+        "AAj": {
+            "caption": "Stored Custom Data",
+            "is_list": true,
+            "name": "return",
+            "rank": 0,
+            "value": "custom_data_AAn"
+        }
+    },
+    "type": "server_side"
+}

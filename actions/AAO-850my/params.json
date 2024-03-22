@@ -1,0 +1,22 @@
+{
+    "category": "plugins",
+    "display": "Store Image",
+    "fields": {
+        "AAP": {
+            "caption": "Image to store",
+            "editor": "DynamicValue",
+            "name": "to_store",
+            "rank": 0,
+            "value": "image"
+        }
+    },
+    "return_value": {
+        "AAQ": {
+            "caption": "Stored Image",
+            "name": "image",
+            "rank": 0,
+            "value": "image"
+        }
+    },
+    "type": "server_side"
+}

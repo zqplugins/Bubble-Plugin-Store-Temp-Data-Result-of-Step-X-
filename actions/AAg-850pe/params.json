@@ -1,0 +1,28 @@
+{
+    "category": "plugins",
+    "display": "Store Custom Data Type",
+    "fields": {
+        "AAh": {
+            "caption": "Data Type to store",
+            "editor": "custom_type",
+            "name": "data_type",
+            "rank": 0
+        },
+        "AAk": {
+            "caption": "Data",
+            "editor": "DynamicValue",
+            "name": "data",
+            "rank": 1,
+            "value": "_any_thing"
+        }
+    },
+    "return_value": {
+        "AAj": {
+            "caption": "Stored Custom Data",
+            "name": "return",
+            "rank": 0,
+            "value": "custom_data_AAh"
+        }
+    },
+    "type": "server_side"
+}

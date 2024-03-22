@@ -1,0 +1,22 @@
+{
+    "category": "plugins",
+    "display": "Store Number",
+    "fields": {
+        "AAD": {
+            "caption": "Number to store",
+            "editor": "DynamicValue",
+            "name": "to_store",
+            "rank": 0,
+            "value": "number"
+        }
+    },
+    "return_value": {
+        "AAE": {
+            "caption": "Stored Number",
+            "name": "number",
+            "rank": 0,
+            "value": "number"
+        }
+    },
+    "type": "server_side"
+}
